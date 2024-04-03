@@ -19,7 +19,7 @@ The dataset used in this project is taken from kaggle: https://www.kaggle.com/da
 
 ## About the web application of the deep learning model
 
-The deep learning model of this project is connected with a frontend webapp created with the help of NextJS via FastAPI for real time prediction. The frontend of the project is deployed on Vercel and the backend of the project is deployed on HuggingFace.
+The deep learning model of this project is connected with a frontend webapp created with the help of NextJS via FastAPI for real time prediction. The frontend of the project is deployed on Vercel and the backend of the project is deployed on HuggingFace Spaces.
 
 ## Links
 
