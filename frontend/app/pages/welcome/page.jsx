@@ -8,7 +8,7 @@ const Page = () => {
   return (
     <>
       <section className="text-gray-600 body-font bg-gradient-to-b from-blue-50 to-white">
-        <div className="container mx-auto flex px-5 py-16 lg:py-24 items-center justify-center flex-col">
+        <div className="container mx-auto flex px-5 py-10 lg:py-24 items-center justify-center flex-col">
           <Image
             className="mb-10 object-cover object-center rounded-full shadow-lg w-56"
             alt="malariacellimage"
