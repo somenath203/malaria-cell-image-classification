@@ -1,7 +1,7 @@
 # Malaria Cell Image Classification using TensorFlow
 
 ## Introduction
-This is a project which uses various deep learning algorithm to detect malaria in cell image.
+This is a project which uses deep learning algorithm to detect malaria in cell images.
 
 ## Dataset used in this project
 
