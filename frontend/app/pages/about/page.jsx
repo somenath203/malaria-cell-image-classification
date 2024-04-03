@@ -6,15 +6,12 @@ const Page = () => {
 
           <p className="text-2xl tracking-wider">About</p>
 
-          <p className="text-base tracking-wide px-8 text-blue-500">
+          <p className="text-base tracking-wide lg:px-20 text-blue-600">
             Malaria Cell Detect is a web application that serves as a 
             tool for healthcare professionals, particularly doctors and medical
             specialists, to detect malaria in blood cells. The application
-            utilizes the Alexnet Model, a well-known deep learning architecture,
-            along with TensorFlow, a powerful open-source software
-            library for machine learning. Our model has been trained and tested
-            on numerous cell images and has achieved an impressive accuracy rate
-            of approximately 91%. The primary function of Malaria Cell Detect is
+            utilizes CNN along with TensorFlow, a powerful open-source software
+            library for machine learning. The primary function of Malaria Cell Detect is
             to analyze images of blood cells that users upload
             to the platform. Once an image is uploaded, the Alexnet Model
             processes the data, identifying patterns and characteristics

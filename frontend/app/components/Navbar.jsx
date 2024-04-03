@@ -4,15 +4,16 @@ const Navbar = () => {
   return (
     <>
       <nav className="bg-white border-gray-200">
-        <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4 py-6">
+        <div className="max-w-screen-xl flex flex-col lg:flex-row items-center justify-between mx-auto p-4 py-6">
           <a className="flex items-center space-x-3 rtl:space-x-reverse">
             <i className="fa-solid fa-hand-holding-droplet text-3xl text-blue-500"></i>
-            <span className="self-center text-2xl font-semibold whitespace-nowrap">
+            <span className="self-center text-xl lg:text-2xl font-semibold whitespace-nowrap">
               Malaria Cell Detect
             </span>
           </a>
-          <div className="hidden w-full md:block md:w-auto" id="navbar-default">
-            <ul className="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 md:bg-white">
+
+          <div className="w-auto text-center">
+            <ul className="font-medium flex gap-4 p-4 md:p-0 mt-4 md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0">
               <li>
                 <Link
                   href="/pages/about"

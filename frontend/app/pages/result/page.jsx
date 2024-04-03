@@ -5,6 +5,7 @@ import { useRef } from 'react';
 import ReactToPrint from 'react-to-print';
 import { v4 as uuidv4 } from 'uuid';
 
+
 const Page = () => {
 
   const { predResultData } = useSelector((state) => state?.predResultLoad);
@@ -15,7 +16,8 @@ const Page = () => {
   return (
     <>
       <section>
-        <div className="container mx-auto flex py-16 items-center justify-center flex-col gap-6  bg-gradient-to-b from-blue-50 to-white">
+        <div className="container mx-auto flex py-16 text-center items-center justify-center flex-col gap-6  bg-gradient-to-b from-blue-50 to-white">
+        
           {!predResultData && !imageData && (
             <>
               <p className="text-3xl tracking-wide uppercase">
@@ -26,7 +28,7 @@ const Page = () => {
 
           {predResultData && imageData && (
             <>
-              <div className="container mx-auto flex items-center justify-center flex-col gap-6" ref={resultPrintRef}>
+              <div className="container mx-auto text-center flex items-center justify-center flex-col gap-6" ref={resultPrintRef}>
                 <div>
                   <p className="text-2xl tracking-wider mb-5 font-medium">
                     Predicted Result
@@ -41,7 +43,7 @@ const Page = () => {
                   />
                 </div>
                 <div>
-                  <p className="text-2xl mt-4 tracking-wide">
+                  <p className="text-2xl mt-4 tracking-wide px-8">
                     The above imput image of the cell is{' '}
                     <span className="text-blue-600 font-semibold">
                       {predResultData}
