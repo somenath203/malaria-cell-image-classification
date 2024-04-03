@@ -69,9 +69,9 @@ const Page = () => {
       {loading && <Loader />}
 
       <section>
-        <div className="container mx-auto flex px-5 py-24 items-center justify-center flex-col">
+        <div className="container mx-auto flex px-5 py-24 items-center justify-center flex-col bg-gradient-to-b from-blue-50 to-white">
           <div
-            className={`w-8/12 p-20 mt-10 py-24 border-blue-500 border-dotted rounded-3xl border-2 bg-blue-50 flex items-center justify-center hover:cursor-pointer ${
+            className={`w-8/12 p-20 mt-10 py-24 border-blue-500 border-dotted rounded-3xl border-2 bg-blue-100 flex items-center justify-center hover:cursor-pointer ${
               isDragActive ? 'border-blue-900 bg-blue-200' : 'border-blue-600'
             }`}
             {...getRootProps()}

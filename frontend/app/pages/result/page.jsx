@@ -15,7 +15,7 @@ const Page = () => {
   return (
     <>
       <section>
-        <div className="container mx-auto flex py-16 items-center justify-center flex-col gap-6">
+        <div className="container mx-auto flex py-16 items-center justify-center flex-col gap-6  bg-gradient-to-b from-blue-50 to-white">
           {!predResultData && !imageData && (
             <>
               <p className="text-3xl tracking-wide uppercase">
@@ -28,7 +28,7 @@ const Page = () => {
             <>
               <div className="container mx-auto flex items-center justify-center flex-col gap-6" ref={resultPrintRef}>
                 <div>
-                  <p className="text-xl tracking-wider mb-5">
+                  <p className="text-2xl tracking-wider mb-5 font-medium">
                     Predicted Result
                   </p>
                 </div>

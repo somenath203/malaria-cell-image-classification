@@ -16,7 +16,7 @@ const Page = () => {
           />
           <div className="text-center lg:w-2/3 w-full">
             <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">
-              Malaria Cell Detector
+              Malaria Cell Detect
             </h1>
             <p className="mb-8 leading-relaxed">
               It is an AI tool which analyze cellular images, determining
