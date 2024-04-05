@@ -5,7 +5,7 @@ This is a project which uses deep learning algorithm to detect malaria in cell i
 
 ## Dataset used in this project
 
-The dataset used in this project is taken from kaggle: https://www.kaggle.com/datasets/iarunava/cell-images-for-detecting-malaria
+The dataset used in this project is taken from kaggle: https://lhncbc.nlm.nih.gov/LHC-research/LHC-projects/image-processing/malaria-datasheet.html
 
 ## Models used in this project
 
