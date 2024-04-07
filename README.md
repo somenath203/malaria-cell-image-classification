@@ -23,7 +23,8 @@ The deep learning model of this project is connected with a frontend webapp crea
 
 ## Links
 
-1) Live Preview: https://malaria-skin-classifier.vercel.app/
+1) Live Preview: 
+https://malaria-cell-classifier.vercel.app/
 2) Backend FastAPI link of the model: https://som11-malaria-cell-classification.hf.space/
 3) Swagger documentation of the FastAPI of the deep learning model: https://som11-malaria-cell-classification.hf.space/docs
 
