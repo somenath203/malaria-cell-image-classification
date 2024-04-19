@@ -107,7 +107,7 @@ const Pagee = () => {
                 </div>
                 <div>
                   <p className="text-2xl mt-4 tracking-wide px-8">
-                    The above imput image of the cell is{' '}
+                    The above input image of the cell is{' '}
                     <span className="text-blue-600 font-semibold">
                       {predResultData}
                     </span>
