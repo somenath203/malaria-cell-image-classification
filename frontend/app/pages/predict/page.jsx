@@ -11,6 +11,7 @@ import { setPredResult } from './../../redux/predictedResultSlice';
 import { setImage } from './../../redux/imageSlice';
 
 const Page = () => {
+  
   const [loading, setLoading] = useState();
 
   const dispatch = useDispatch();
