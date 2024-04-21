@@ -207,12 +207,11 @@ const Pagee = () => {
                   />
                 </div>
                 <div>
-                  <p className="text-2xl mt-4 tracking-wide px-8">
-                    The above imput image of the cell is{' '}
-                    <span className="text-blue-600 font-semibold">
-                      {predResultData}
+                  <p className="text-2xl mt-4 tracking-wide px-8 text-center">
+                    The full report of the predicted result is  
+                    <span className="text-blue-600 font-semibold ml-2">
+                       ready.
                     </span>
-                    .
                   </p>
                 </div>
               </div>
