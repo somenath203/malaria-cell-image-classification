@@ -27,6 +27,7 @@ The deep learning model of this project is connected with a frontend webapp crea
 https://malaria-cell-classifier.vercel.app/
 2) Backend FastAPI link of the model: https://som11-malaria-cell-classification.hf.space/
 3) Swagger documentation of the FastAPI of the deep learning model: https://som11-malaria-cell-classification.hf.space/docs
+4) NodeJS API of the project: https://malaria-cell-detect-backend-nodejs.onrender.com/
 
 ## Warning
 While the model of this project can detect malaria in cell images correctly, but in some cases, the model may misclassify or fail to detect malaria altogether, therefore, it is strongly advised not to rely solely on the output of this model.
