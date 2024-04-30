@@ -21,7 +21,7 @@ The dataset used in this project is taken from here: https://lhncbc.nlm.nih.gov/
 
 The deep learning model of this project is connected with a frontend webapp created with the help of NextJS via FastAPI for real time prediction. The frontend of the project is deployed on Vercel and the backend of the project is deployed on HuggingFace Spaces.
 
-NOTE: In order to make a successful payment using Razorpay using the Card option, one can use this dummy credit card number: 4111 1111 1111 1111
+NOTE: In order to make a successful payment through Razorpay using the Card option, one can use this dummy credit card number: 4111 1111 1111 1111
 
 ## Links
 
