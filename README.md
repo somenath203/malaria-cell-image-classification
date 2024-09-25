@@ -33,7 +33,7 @@ To complete a payment with Razorpay, follow these steps:
 
 1. **Select the "Card" option.**
 2. **Enter the card number:** `4111 1111 1111 1111`.
-3. **Input the card expiry date:** Choose any date that is later than today.
+3. **Input the card expiry date:** Use any date in the future. For example, if today's date is 08/24 (August 2024), you can use an expiry date like 05/28 (May 2028), where 08 and 05 are months, and 24 and 28 are years.
 4. **Enter the CVV:** You can use a number like `123` or `111`.
 5. **Provide the OTP:** Enter a random 7-digit number, such as `8392653`.
 
