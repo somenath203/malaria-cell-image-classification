@@ -37,7 +37,7 @@ To complete a payment with Razorpay, follow these steps:
 4. **Enter the CVV:** You can use a number like `123` or `111`.
 5. **Provide the OTP:** Enter a random 7-digit number, such as `8392653`.
 
-Once you’ve completed these steps, your payment will be processed.
+Once you’ve completed these steps, your payment will be processed. For more information, watch the youtube video.
 
 ## Links
 
