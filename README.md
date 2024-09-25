@@ -1,5 +1,11 @@
 # Malaria Cell Image Classification using TensorFlow
 
+## Demo video of the application
+
+![malariacellclassification](https://github.com/user-attachments/assets/3535bf28-373b-4560-b83c-dec7c7ee3780)
+
+https://www.youtube.com/watch?v=Nx-q1x9u4Bw
+
 ## Introduction
 This is a project which uses deep learning algorithm to detect malaria in cell images.
 
@@ -21,7 +27,17 @@ The dataset used in this project is taken from here: https://lhncbc.nlm.nih.gov/
 
 The deep learning model of this project is connected with a frontend webapp created with the help of NextJS via FastAPI for real time prediction. The frontend of the project is deployed on Vercel and the backend of the project is deployed on HuggingFace Spaces.
 
-NOTE: In order to make a successful payment through Razorpay using the Card option, one can use this dummy credit card number: 4111 1111 1111 1111
+## Regarding making successful payment with Razorpay
+
+To complete a payment with Razorpay, follow these steps:
+
+1. **Select the "Card" option.**
+2. **Enter the card number:** `4111 1111 1111 1111`.
+3. **Input the card expiry date:** Choose any date that is later than today.
+4. **Enter the CVV:** You can use a number like `123` or `111`.
+5. **Provide the OTP:** Enter a random 7-digit number, such as `8392653`.
+
+Once you’ve completed these steps, your payment will be processed.
 
 ## Links
 
