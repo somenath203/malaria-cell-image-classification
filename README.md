@@ -27,17 +27,18 @@ The dataset used in this project is taken from here: https://lhncbc.nlm.nih.gov/
 
 The deep learning model of this project is connected with a frontend webapp created with the help of NextJS via FastAPI for real time prediction. The frontend of the project is deployed on Vercel and the backend of the project is deployed on HuggingFace Spaces.
 
-## Regarding making successful payment with Razorpay
+## Making a Successful Payment with Razorpay  
 
-To complete a payment with Razorpay, follow these steps:
+To complete your payment through Razorpay, simply follow these steps:  
 
-1. **Select the "Cards" option.**
-2. **Enter the card number:** `4111 1111 1111 1111`.
-3. **Input the card expiry date:** Use any date in the future. For example, if today's date is 08/24 (August 2024), you can use an expiry date like 05/28 (May 2028), where 08 and 05 are months, and 24 and 28 are years.
-4. **Enter the CVV:** You can use a number like `123` or `111`.
-5. **Provide the OTP:** Enter a random 7-digit number, such as `8392653`.
+1. **Choose the "UPI" payment method**  
 
-Once you’ve completed these steps, your payment will be processed. For more information, watch the youtube video.
+2. **Provide the UPI ID**  
+   - Enter: `success@razorpay`.  
+
+3. **Payment Confirmation**  
+   - Your payment will be processed successfully.  
+
 
 ## Links
 
